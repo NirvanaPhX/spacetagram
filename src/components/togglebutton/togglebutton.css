@@ -1,0 +1,27 @@
+.button {
+  background-color: #fff;
+  color: black;
+  margin: 2%;
+  padding: 0.5% 1.5%;
+  border: 1px solid grey;
+  box-shadow: 1px 1px rgb(180, 176, 176);
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  box-shadow: 2px 2px rgb(214, 211, 211);
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+}
+
+.toggle {
+  border: 1.5px solid black;
+  line-height: 32px;
+}

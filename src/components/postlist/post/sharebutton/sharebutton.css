@@ -1,0 +1,54 @@
+.sharebutton {
+  margin-right: 5%;
+  padding: 1%;
+}
+
+.sharebutton:hover {
+  opacity: 0.3;
+  cursor: pointer;
+  animation: sharingEffect 0.7s linear infinite;
+}
+
+@keyframes sharingEffect {
+  0% {
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  100% {
+  }
+}
+
+.right {
+  float: right;
+  margin-right: 5%;
+  position: relative;
+}
+
+.popup {
+  display: none;
+  background-color: rgb(245, 245, 199);
+  width: 100px;
+  font-size: 12px;
+  border-radius: 1%;
+  border: 1px solid black;
+  padding: 2%;
+  position: absolute;
+  right: -50%;
+  bottom: 110%;
+  text-align: center;
+}
+
+.tooltip {
+  display: none;
+  background-color: rgb(245, 245, 199);
+  width: 100px;
+  font-size: 12px;
+  border-radius: 1%;
+  border: 1px solid black;
+  padding: 2%;
+  position: absolute;
+  right: -50%;
+  bottom: -110%;
+  text-align: center;
+}
